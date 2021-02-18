@@ -1,0 +1,353 @@
+.card-container{
+max-width: 90%;
+margin: 0 auto;
+}
+
+mat-card{
+    background: #282e38;
+    box-sizing: border-box;
+    border: 1px solid #282e38;
+}
+.cards mat-card{
+    padding: 1rem;
+}
+
+.title-1{
+    font-size: 1rem;
+    text-align: center;
+    color: #c2185b;
+}
+
+.card {
+    padding-top: 20px;
+}
+
+.card mat-card{
+    padding: 1.5rem;
+}
+
+.content-1{
+    text-align: center;
+}
+
+.content-1 h1{
+    font-weight: 700;
+    color: #ff073a;
+}
+
+.svg-parent{
+    color: #ff073a;
+}
+
+.content-1 h4{
+    color: #c2185b;
+}
+
+.title-2{
+    font-size: 1rem;
+    text-align: center;
+    color: #004a99;
+}
+
+.content-2{
+    text-align: center;
+}
+
+.content-2 h4{
+    color: #004a99;
+}
+
+.content-2 h1{
+    font-weight: 700;
+    color: #007bff;
+
+}
+
+.svg-parent-1{
+    color: #007bff;
+}
+
+
+.title-3{
+    font-size: 1rem;
+    text-align: center;
+    color: #145e24;
+}
+
+.content-3{
+    text-align: center;
+}
+
+.content-3 h4{
+    color: #145e24;
+}
+
+.content-3 h1{
+    font-weight: 700;
+    color: #288212;
+
+}
+
+.svg-parent-2{
+    color: #28a745;
+}
+
+.title-4{
+    font-size: 1rem;
+    text-align: center;
+    color: #596f9b;
+}
+
+.content-4{
+    text-align: center;
+}
+
+.content-4 h4{
+    color: #596f9b;
+}
+
+.content-4 h1{
+    font-weight: 700;
+    color: #99b6c3;
+
+}
+
+.svg-parent-3{
+    color: #99b6c3;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+    color: #99b6c3;
+}
+
+.header h5 {
+    color: #99b6c3;
+}
+
+.get-data h3 {
+    color: #ff073a;
+    background-color: #200107;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.graph-1{
+    font-size: 1rem;
+    color: #99b6c3;
+}
+
+.graph-2{
+    font-size: 1rem;
+    color: #99b6c3;
+}
+
+.graph-3{
+    font-size: 1rem;
+    color: #99b6c3;
+}
+
+.graph-4{
+    font-size: 1rem;
+    color: #99b6c3;
+}
+
+.graph-5{
+    font-size: 1rem;
+    color: #99b6c3;
+}
+
+.table-title{
+    background-color: #181515;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.state-note{
+    font-size: 1rem;
+    color: #bc9f07;
+    margin: 0;
+    padding: 0;
+}
+
+.sorting-note{
+    font-size: 1rem;
+    color:#08ffe1;
+}
+
+
+
+table {
+    position: relative;
+    align-self: center;
+    font-family: "archia";
+    text-transform: uppercase;
+    border-spacing: 3px 2px;
+    border-collapse: separate;
+}
+
+span.dropdown.rotateDownRight {
+    position: absolute;
+    left: 0;
+    /* top: 58px; */
+    margin-top: 8px;
+    margin-right: 22px;
+}
+
+ :not(svg) {
+    transform-origin: 0px 0px;
+}
+
+table .dropdown {
+    position: absolute;
+    left: -.75rem;
+    background: rgba(108, 117, 125, .0627451);
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+table .dropdown svg {
+    position: absolute;
+    top: -2px;
+    left: 1px;
+    width: 11px;
+    stroke-width: 3;
+}
+
+table thead {
+    background: rgba(108, 117, 125, .0627451);
+    color: #343a40;
+    text-align: left;
+    font-size: .75rem;
+}
+
+table thead th.sticky {
+    top: 4px;
+    background: #f1f1f1;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+table thead th {
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .1s ease-in-out;
+    z-index: 99;
+    font-weight: bold;
+    font-size: .75rem;
+    width: 31%;
+    padding: 8px;
+}
+
+table thead th .heading-content abbr {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+abbr:hover {
+    cursor: pointer;
+}
+
+table tbody tr:hover {
+    background: rgba(61, 62, 63, 0.125) !important;
+}
+
+table tbody tr {
+    transition: background .1s ease-in-out;
+    cursor: pointer;
+}
+
+table tbody:nth-child(odd) tr {
+    background-color: #bc9f07;
+}
+
+table tbody td:first-child {
+    text-align: left;
+    word-wrap: break-word;
+    margin-left: 10px;
+    text-align: left;
+}
+
+table tbody td {
+    border-top: none;
+}
+
+table tbody {
+    color: #666c72;
+}
+
+table tbody td .deltas {
+    margin-right: 10px;
+    font-size: 12px!important;
+}
+
+table tbody td .deltas svg {
+    width: 9px;
+    height: 9px;
+    stroke-width: 3;
+    vertical-align: -.25px;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table td {
+    overflow: hidden;
+}
+
+table tbody tr.nohover:hover {
+    background-color: white !important;
+}
+
+th .active-cases {
+    color: #007bff !important;
+}
+
+th abbr.confirmed {
+    color: #ff073a !important;
+}
+
+th abbr.recovered {
+    color: #28a745 !important;
+}
+
+th abbr.death {
+    color: #6c757d !important;
+}
+
+.up-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    float: right;
+    margin-top: 8px;
+}
+
+.downarrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    float: right;
+    margin-top: 8px;
+}
